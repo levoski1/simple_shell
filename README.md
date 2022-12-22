@@ -1,6 +1,5 @@
 # SIMPLE UNIX SHELL :shell:
-
-## Description :page_with_curl:
+# Description :page_with_curl:
 
 This is a simple implementation of a UNIX command line interpreter. The shell can interpret and execute command line arguments read from the standard input. the shell read lines from a file or terminal line which is then interpreted and executed if the command is valid
 
@@ -8,7 +7,7 @@ This is a simple implementation of a UNIX command line interpreter. The shell ca
 
 - All the files are to be compiled on an Ubuntu 14.04 LTS machine with:
   `gcc -Wall -Werror -Wextra -pedantic *.c `
-- All files ends end with a new line, with no memory leaks
+- All files must end with a new line, with no memory leaks
 - All code will use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl`
 - All code will be tested using the test files in the test folder.
 - The simple shell supports most shell commands, such as `cat`, `pwd`,` ls -la` and more.
